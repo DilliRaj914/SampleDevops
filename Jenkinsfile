@@ -9,7 +9,7 @@ pipeline{
 	    
                steps{
 		 echo 'cloning'
-                 git 'https://github.com/DilliRaj914/Devops-Practice.git'
+                 git 'https://github.com/DilliRaj914/SampleDevops.git'
               }
           }
           stage('Compile'){
